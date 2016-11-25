@@ -25,9 +25,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string></string>
+	<string>Take your photo to Blur</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string></string>
+	<string>Take your photo to Blur</string>
 	<key>UILaunchStoryboardName</key>
 	<string>Main</string>
 	<key>UIMainStoryboardFile</key>
