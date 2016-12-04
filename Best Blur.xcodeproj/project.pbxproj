@@ -75,7 +75,6 @@
 		34FD77DE19EC58CF0036051D /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FD77DD19EC58CF0036051D /* PhotosUI.framework */; };
 		34FD77E019EC58CF0036051D /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FD77DF19EC58CF0036051D /* Photos.framework */; };
 		34FD77E619EC58CF0036051D /* MVAPhotoEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FD77E519EC58CF0036051D /* MVAPhotoEditingViewController.m */; };
-		34FD77EB19EC58CF0036051D /* extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 34FD77DC19EC58CF0036051D /* extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		34FD77F219EC5A320036051D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34FD77F119EC5A320036051D /* MainInterface.storyboard */; };
 		34FD77FA19EC64760036051D /* MVAData.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDEAF19E9D6C50087F62C /* MVAData.m */; };
 		34FD77FD19EC64BB0036051D /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DDDE8519E9A29D0087F62C /* UIImage+ImageEffects.m */; };
@@ -105,20 +104,6 @@
 			remoteInfo = extension;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		3473324D19EB12D70048E7F1 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				34FD77EB19EC58CF0036051D /* extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		12729AB31DE7340900816546 /* EFCircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFCircularSlider.h; sourceTree = "<group>"; };
@@ -421,7 +406,6 @@
 				34DDDE5519E9A1760087F62C /* Sources */,
 				34DDDE5619E9A1760087F62C /* Frameworks */,
 				34DDDE5719E9A1760087F62C /* Resources */,
-				3473324D19EB12D70048E7F1 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -481,7 +465,7 @@
 					34DDDE5819E9A1760087F62C = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = JQNK74493B;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					34DDDE7119E9A1760087F62C = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -490,7 +474,7 @@
 					34FD77DB19EC58CF0036051D = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = JQNK74493B;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -760,8 +744,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Mauro Vime (K72L57PUAT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = JQNK74493B;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Best",
@@ -779,8 +763,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.InstaBlur.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a8646acb-e566-4d48-b75d-89d0b26b9353";
-				PROVISIONING_PROFILE_SPECIFIER = InstaBlur;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -789,8 +773,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Mauro Vime (Z4J229RMGR)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = JQNK74493B;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Best",
@@ -808,8 +792,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.InstaBlur.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a8646acb-e566-4d48-b75d-89d0b26b9353";
-				PROVISIONING_PROFILE_SPECIFIER = InstaBlur;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -851,8 +835,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = JQNK74493B;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -862,8 +846,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.InstaBlur.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a8646acb-e566-4d48-b75d-89d0b26b9353";
-				PROVISIONING_PROFILE_SPECIFIER = InstaBlur;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -872,15 +856,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = JQNK74493B;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = extension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.InstaBlur.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "a8646acb-e566-4d48-b75d-89d0b26b9353";
-				PROVISIONING_PROFILE_SPECIFIER = InstaBlur;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
