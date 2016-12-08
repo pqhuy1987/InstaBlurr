@@ -465,7 +465,7 @@
 					34DDDE5819E9A1760087F62C = {
 						CreatedOnToolsVersion = 6.0.1;
 						DevelopmentTeam = JQNK74493B;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					34DDDE7119E9A1760087F62C = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -744,8 +744,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Mauro Vime (K72L57PUAT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = JQNK74493B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Best",
@@ -761,10 +761,10 @@
 				INFOPLIST_FILE = "Best Blur/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.InstaBlur.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.weddinganalog.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c0505a17-c051-4a8c-a254-5dbedabc8204";
+				PROVISIONING_PROFILE_SPECIFIER = Wedding;
 			};
 			name = Debug;
 		};
@@ -773,8 +773,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Mauro Vime (Z4J229RMGR)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = JQNK74493B;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Best",
@@ -790,10 +790,10 @@
 				INFOPLIST_FILE = "Best Blur/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.InstaBlur.100;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.weddinganalog.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "c0505a17-c051-4a8c-a254-5dbedabc8204";
+				PROVISIONING_PROFILE_SPECIFIER = Wedding;
 			};
 			name = Release;
 		};
